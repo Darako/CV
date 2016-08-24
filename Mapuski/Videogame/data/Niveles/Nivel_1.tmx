@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" renderorder="left-up" width="28" height="42" tilewidth="70" tileheight="70" nextobjectid="19">
+ <tileset firstgid="1" name="tiles_spritesheet" tilewidth="70" tileheight="70" spacing="2">
+  <image source="../CutePack/Base pack/Tiles/tiles_spritesheet.png" trans="ff00ff" width="914" height="936"/>
+  <tile id="44">
+   <properties>
+    <property name="suelo" value="true"/>
+   </properties>
+  </tile>
+  <tile id="56">
+   <properties>
+    <property name="suelo" value="true"/>
+   </properties>
+  </tile>
+  <tile id="68">
+   <properties>
+    <property name="suelo" value="true"/>
+   </properties>
+  </tile>
+  <tile id="80">
+   <properties>
+    <property name="suelo" value="true"/>
+   </properties>
+  </tile>
+  <tile id="91">
+   <properties>
+    <property name="suelo" value="true"/>
+   </properties>
+  </tile>
+  <tile id="97">
+   <properties>
+    <property name="fruitType" value="apple"/>
+   </properties>
+  </tile>
+  <tile id="103">
+   <properties>
+    <property name="suelo" value="true"/>
+   </properties>
+  </tile>
+  <tile id="115">
+   <properties>
+    <property name="suelo" value="true"/>
+   </properties>
+  </tile>
+  <tile id="132">
+   <properties>
+    <property name="desplazable" value="true"/>
+    <property name="suelo" value="true"/>
+   </properties>
+  </tile>
+ </tileset>
+ <tileset firstgid="157" name="fondo" tilewidth="70" tileheight="70" spacing="2">
+  <image source="../CutePack/Base pack/bg.png" trans="ff00ff" width="256" height="256"/>
+ </tileset>
+ <tileset firstgid="166" name="transparent" tilewidth="70" tileheight="70">
+  <image source="../CutePack/transparent.png" width="70" height="70"/>
+  <tile id="0">
+   <properties>
+    <property name="tileType" value="air"/>
+   </properties>
+  </tile>
+ </tileset>
+ <tileset firstgid="167" name="Frutas-01" tilewidth="70" tileheight="70">
+  <image source="../CutePack/Frutas/Frutas-01.png" width="140" height="140"/>
+  <tile id="0">
+   <properties>
+    <property name="tileType" value="manzana"/>
+   </properties>
+  </tile>
+  <tile id="1">
+   <properties>
+    <property name="tileType" value="uva"/>
+   </properties>
+  </tile>
+  <tile id="2">
+   <properties>
+    <property name="tileType" value="sandia"/>
+   </properties>
+  </tile>
+  <tile id="3">
+   <properties>
+    <property name="tileType" value="pera"/>
+   </properties>
+  </tile>
+ </tileset>
+ <layer name="BackgroundLayer" width="28" height="42">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAC+3DQQ0AAAwDofPvoV7nYW9IWDVVVVVVfT4XczXAYBIAAA==
+  </data>
+ </layer>
+ <layer name="DecorationLayer" width="28" height="42">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAC+3BMQEAAADCoPVPbQdvoAAAAADgN2b84ZNgEgAA
+  </data>
+ </layer>
+ <layer name="CollisionLayer" width="28" height="42">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAC92WUQ6EMAhE++1JvZIX2HMaEzfZkFJhmCFZP/jQtH3OQIVjjHE0x6cp3sjb7+jgbWJ9uwmln1aLMn8RFsKzfnm+MXhRDQweg/XLW3nEYj3pY3KifrKZkfx1+amsl8jazvvAYiL1UmGi9wFlerzIeQhzxsuc46313lse8s12z+r5y6vWndebVvOE19vQnjfTUO3v1fxldWbr1va/Sg4j9caoz8xelp+q+QzVpa5PBY/1/1SxUJ6q/7FZWd4/z/NqzhNPMcvPeCqO5WV7LRoX6wStvKT5YBIAAA==
+  </data>
+ </layer>
+ <layer name="FruitLayer" width="28" height="42">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAC+3WSw4AEAwEUPe/iM8pxR4bZWo6by+pmEylJKcaegBxQTmYq+gBRAy8yLE6xIeMHsAY230G7ZW9Ajq7wphBD268VUSsfcKWj0g98vt/sAMmXHNfYBIAAA==
+  </data>
+ </layer>
+</map>
